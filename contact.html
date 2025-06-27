@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #4a2b15;
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      color: #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    .submit-btn {
+      margin-top: 20px;
+      background-color: #4a2b15;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #6b3d20;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 24px;
+      color: #4a2b15;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+     a:hover i.fa-linkedin{
+    color:blue;
+    transform: scale(1.3);
+  }
+  a:hover i.fa-github{
+    color:black;
+    transform: scale(1.3);
+  }
+  a:hover i.fa-instagram{
+    color:rgb(216, 41, 120);
+    transform: scale(1.3);
+  }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h2> Contact Me</h2>
+    
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/priya-dharshini-521993329" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Priya-rajini" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/_priya_dharshini_0506/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</body>
+</html>
